@@ -35,24 +35,6 @@ import { catchError } from 'rxjs/operators';
 * Simply download and copy the component to your Angular project.
 
 ## Usage
-### Import the service
-
-- Import to the app.module
-
-```
-@NgModule({
-  declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    ComponentsModule,
-    HttpClientModule,
-    RouterModule
-  ],
-  providers: [EventHandlerService],
-  bootstrap: [AppComponent]
-})
-```
-### Use the service
 - The source code contains four folders:
 + service: provide needed services.
 + guard: provide guard for routing.
