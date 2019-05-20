@@ -36,10 +36,13 @@ import { catchError } from 'rxjs/operators';
 
 ## Usage
 - The source code contains four folders:
-+ service: provide needed services.
-+ guard: provide guard for routing.
-+ interceptor: provide interception to request and response.
-+ model: provide defined models.
+
+```
+service: provide needed services.
+guard: provide guard for routing.
+interceptor: provide interception to request and response.
+model: provide defined models.
+```
 
 - To configure the API url, navigate to service/api.service.ts
 
